@@ -1,38 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-   <style>
-      div {
-         color: red;
-         margin-bottom: 5px;
-         
-      }
-      button{
-         margin-left: 2px;
-      }
-   </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="asset/favicon.ico" type="image/x-icon">
+<link rel="manifest" href="asset/site.webmanifest" >
+  <title>Todo List App</title>
+  <style>
+    div {
+      margin-bottom: 5px;
+    }
+
+    button {
+      margin-right: 5px;
+    }
+
+    div.penampung {
+      margin-top: 10px;
+
+    }
+
+    div.penampung div span:hover {
+      margin-top: 10px;
+      /* color: rgb(253, 3, 3); */
+      scale: 1.5;
+      font-size: 20px;
+      transition: 1s;
+      /* background-color: black; */
+
+    }
+
+    button {
+      width: 70px;
+      /* border-color:black; */
+      color: white;
+      border-radius: 10px;
+      border-style: hidden;
+      border-width: 3px;
+      background-color: rgba(108, 110, 110, 0.993);
+
+
+    }
+
+    button:hover {
+      color: rgb(255, 255, 255);
+      text-decoration: solid;
+      scale: 1.2;
+      transition: 1.2s;
+      background-color: red;
+    }
+
+    button#btn:hover {
+      color: white;
+      scale: 1.2;
+      transition: 1.5s;
+      background-color: green;
+    }
+
+    div h3 {
+      color: green;
+    }
+  </style>
 </head>
+
 <body>
-   
-
-   <input type="text" name="" id="input"> <button id="btn">input</button>
-   <h5>hasil</h5>
-   <div class="penampung">
-     
-
-
+  <span class="nama" style="font-size: 20px" > Todo : </span>
+  <input type="text" name="" id="input" placeholder="Masukan kegiatan"/>
+  <button id="btn">Input</button>
+  <h3>Data</h3>
   
-<!-- 
-   </div>
-   <div id="duo">    kotak2
+<!-- <button id="btnsearch"> Cari</button> -->
 
-      <p id="tigo">x</p>
-      <button id="bt1">xxxxx</button>
-   </div>
- -->
- <script src="x1.js"></script> 
+  <div class="penampung"></div>
+  <span class="nama" style="font-size: 20px;"> Search : </span>
+  <input type="text" id="inputsearch" placeholder="Masukan Pencarian">  
+
+  <script src="logic.js"></script>
 </body>
+
 </html>
