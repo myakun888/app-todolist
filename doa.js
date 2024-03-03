@@ -11,7 +11,7 @@ async function doa() {
         console.log(`   ${doanya.toUpperCase()}`);
      
     }else if(hitung % 12 == 0){
-      console.log('ya allah pinterkanlah hamba dalam pemrograman dan memilki skill profesional seorang software enginer, back end')
+      console.log('ya allah pinterkanlah hamba dalam pemrograman dan memilki skill profesional seorang software engineer, back end')
     }
     console.log(
       `laa ilaaha illaa anta subhaanaka inni kuntu minazh zhaalimiin ${hitung}`
